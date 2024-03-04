@@ -15,6 +15,13 @@
   --third-color: #ff9a3c; 
   
 }
+head {
+  background-color: #79c2d0;
+}
+
+body {
+  background-color: #407088;
+}
 
 @keyframes wave {
   0% {
@@ -42,6 +49,10 @@
   margin-left: -18px; /* Adjust as needed */
   animation: wave 2s infinite;
 }
+.kcm-logo {
+  max-width: 100px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: var(--background-color);
